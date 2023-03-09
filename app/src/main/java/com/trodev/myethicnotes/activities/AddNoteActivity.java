@@ -32,6 +32,7 @@ public class AddNoteActivity extends AppCompatActivity {
 
         // add toolbar name
         getSupportActionBar().setTitle("Create Ethic");
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
 
         //get model class to view
         notesViewModel = ViewModelProviders.of(this).get(NotesViewModel.class);

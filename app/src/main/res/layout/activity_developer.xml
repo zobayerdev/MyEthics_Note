@@ -153,21 +153,22 @@
                     android:layout_margin="5dp"
                     android:src="@drawable/linkedin" />
 
+<!--
                 <ImageView
                     android:id="@+id/youtube"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
                     android:layout_gravity="center"
                     android:layout_margin="5dp"
-                    android:src="@drawable/youtube" />
+                    android:src="@drawable/youtube" />-->
 
-                <ImageView
+<!--                <ImageView
                     android:id="@+id/github"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
                     android:layout_gravity="center"
                     android:layout_margin="5dp"
-                    android:src="@drawable/github" />
+                    android:src="@drawable/github" />-->
 
                 <ImageView
                     android:id="@+id/policy"

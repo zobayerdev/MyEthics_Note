@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.trodev.myethicnotes.R;
+
 import android.content.ActivityNotFoundException;
 import android.content.Intent;
 import android.net.Uri;
@@ -14,20 +15,24 @@ import android.widget.ImageView;
 
 public class DeveloperActivity extends AppCompatActivity {
 
-    private ImageView facebook, instagram, linkedin, youtube, privacy, github;
+    private ImageView facebook, instagram, linkedin, privacy; //github, youtube;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_developer);
 
+        // action bar title
         getSupportActionBar().setTitle("Developer Activity");
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
 
+        //init view
         facebook = findViewById(R.id.facebook);
         instagram = findViewById(R.id.instagram);
         linkedin = findViewById(R.id.linkedin);
-        youtube = findViewById(R.id.youtube);
         privacy = findViewById(R.id.policy);
-        github = findViewById(R.id.github);
+        //  youtube = findViewById(R.id.youtube);
+        //  github = findViewById(R.id.github);
 
         facebook.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -66,7 +71,7 @@ public class DeveloperActivity extends AppCompatActivity {
             }
         });
 
-        youtube.setOnClickListener(new View.OnClickListener() {
+/*        youtube.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
@@ -79,10 +84,10 @@ public class DeveloperActivity extends AppCompatActivity {
                     startActivity(webIntent);
                 }
             }
-        });
+        });*/
 
 
-        github.setOnClickListener(new View.OnClickListener() {
+/*        github.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
@@ -95,7 +100,7 @@ public class DeveloperActivity extends AppCompatActivity {
                     startActivity(webIntent);
                 }
             }
-        });
+        });*/
 
         privacy.setOnClickListener(new View.OnClickListener() {
             @Override

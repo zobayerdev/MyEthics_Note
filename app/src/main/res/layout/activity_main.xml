@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawerlayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:backgroundTint="@color/white"
+    android:orientation="vertical"
     tools:context=".activities.MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        >
 
     <LinearLayout
         android:id="@+id/filter"
@@ -19,9 +29,8 @@
             android:layout_width="35dp"
             android:layout_height="35dp"
             android:background="@drawable/filter_btn_shape"
-            android:src="@drawable/ic_filter"
             android:padding="5dp"
-            />
+            android:src="@drawable/ic_filter" />
 
         <TextView
             android:id="@+id/noFilter"
@@ -38,7 +47,6 @@
             android:text="No Filter"
             android:textColor="@color/black"
             android:textStyle="bold" />
-
 
         <TextView
             android:id="@+id/highTolow"
@@ -92,4 +100,14 @@
         android:layout_marginBottom="15dp"
         android:src="@drawable/ic_add_white" />
 
-</RelativeLayout>
+    </RelativeLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigation_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/header_menu"
+        app:menu="@menu/navigation_menu" />
+
+</androidx.drawerlayout.widget.DrawerLayout>

@@ -39,6 +39,7 @@ public class UpdateNoteActivity extends AppCompatActivity {
         setContentView(binding.getRoot());
 
         getSupportActionBar().setTitle("Update Ethic");
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
 
         //get data on model view
         sid = getIntent().getIntExtra("id",0);
