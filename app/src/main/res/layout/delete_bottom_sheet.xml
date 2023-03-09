@@ -20,6 +20,8 @@
         android:text="Are you want to sure \nDelete this Notes ?"
         android:layout_marginBottom="20dp"
         android:textColor="@color/red"
+        android:fontFamily="@font/trebuc"
+        android:textStyle="bold"
         android:textSize="20sp" />
 
     <TextView
@@ -30,10 +32,12 @@
         android:layout_marginEnd="15dp"
         android:layout_marginBottom="5dp"
         android:background="@drawable/no_delete"
+        android:fontFamily="@font/trebuc"
         android:gravity="center"
         android:padding="10dp"
         android:text="No"
         android:textColor="@color/black"
+        android:textStyle="bold"
         android:textSize="20sp" />
 
     <TextView
@@ -49,6 +53,8 @@
         android:padding="10dp"
         android:text="YES"
         android:textColor="@color/white"
+        android:fontFamily="@font/trebuc"
+        android:textStyle="bold"
         android:textSize="20sp" />
 
 

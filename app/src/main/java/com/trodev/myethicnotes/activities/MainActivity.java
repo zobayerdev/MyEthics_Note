@@ -195,7 +195,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         SearchView searchView = (SearchView) menuItem.getActionView();
-        searchView.setQueryHint("Search Ethic here...");
+        searchView.setQueryHint("Search Ethics here...");
         searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
             @Override
             public boolean onQueryTextSubmit(String s) {
