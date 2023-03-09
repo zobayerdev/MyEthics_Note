@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">MyEthic Notes</string>
+    <string name="bio">MyEthic Notes অ্যাপটি Trodev আইটি ফার্ম দ্বারা তৈরি করা হয়েছে এবং MyEthic Notes অ্যাপটি সংরক্ষণ ও সংশোধন করার সম্পূর্ণ ক্ষমতা Trodev এর রয়েছে।
+        \n\n MyEthic Notes অ্যাপটি চালানোর সময়ে কোন রকম সমস্যার সম্মুখীন হলে কল বা ইমেইল করে আমাদের হেল্প সেন্টারে যোগাযোগ করুন। ধন্যবাদ।</string>
 </resources>

@@ -30,7 +30,10 @@
             android:layout_height="wrap_content"
             android:padding="5dp"
             android:text="Title"
-            android:textColor="@color/black" />
+            android:fontFamily="@font/trebuc"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            />
 
         <TextView
             android:id="@+id/noteSubtitle"
@@ -38,7 +41,10 @@
             android:layout_height="wrap_content"
             android:padding="5dp"
             android:text="Subtitle"
-            android:textColor="@color/black" />
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:fontFamily="@font/trebuc"
+            />
 
         <TextView
             android:id="@+id/notesDate"
@@ -47,7 +53,9 @@
             android:padding="5dp"
             android:text="08/03/2023"
             android:textColor="@color/black"
-            android:textStyle="bold" />
+            android:fontFamily="@font/faito"
+            android:textSize="15sp"
+            />
 
     </LinearLayout>
 

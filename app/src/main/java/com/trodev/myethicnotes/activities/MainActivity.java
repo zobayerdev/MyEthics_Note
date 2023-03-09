@@ -1,5 +1,6 @@
 package com.trodev.myethicnotes.activities;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
@@ -16,6 +17,7 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.SearchView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.trodev.myethicnotes.Model.Notes;
@@ -163,6 +165,7 @@ public class MainActivity extends AppCompatActivity {
         getMenuInflater().inflate(R.menu.search_notes, menu);
         MenuItem menuItem = menu.findItem(R.id.app_bar_search);
 
+
         SearchView searchView = (SearchView) menuItem.getActionView();
         searchView.setQueryHint("Search Ethic here...");
         searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
@@ -189,5 +192,15 @@ public class MainActivity extends AppCompatActivity {
             }
             this.adapter.searchNotes(FilterNames);
         }
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        if(item.getItemId() == R.id.dev)
+        {
+            startActivity(new Intent(MainActivity.this, DeveloperActivity.class));
+            Toast.makeText(this, "Developer Activity", Toast.LENGTH_SHORT).show();
+        }
+        return true;
     }
 }
