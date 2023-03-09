@@ -17,10 +17,12 @@
             android:name=".activities.DeveloperActivity"
             android:exported="false"
             android:parentActivityName=".activities.MainActivity" />
+
         <activity
             android:name=".activities.UpdateNoteActivity"
             android:exported="false"
-            android:parentActivityName=".activities.MainActivity" />
+            />
+
         <activity
             android:name=".activities.AddNoteActivity"
             android:exported="false"
