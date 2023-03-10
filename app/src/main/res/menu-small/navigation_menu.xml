@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_notification_notice"
+        android:fontFamily="@font/trebuc"
+        android:icon="@drawable/ic_notification"
+        android:title="Notification" />
+    <item
+        android:id="@+id/nav_req_dev"
+        android:fontFamily="@font/trebuc"
+        android:icon="@drawable/ic_youtube"
+        android:title="MyTube" />
+    <item
+        android:id="@+id/nav_dev"
+        android:fontFamily="@font/trebuc"
+        android:icon="@drawable/ic_dev"
+        android:title="Developer" />
+    <item
+        android:id="@+id/nav_policy"
+        android:fontFamily="@font/trebuc"
+        android:icon="@drawable/ic_privacy"
+        android:title="Privacy Policy" />
+    <item
+        android:id="@+id/nav_share"
+        android:fontFamily="@font/trebuc"
+        android:icon="@drawable/ic_share"
+        android:title="Share Apps" />
+    <item
+        android:id="@+id/nav_rate"
+        android:fontFamily="@font/trebuc"
+        android:icon="@drawable/ic_rate"
+        android:title="Rating Us" />
+    <item
+        android:id="@+id/nav_apps"
+        android:fontFamily="@font/trebuc"
+        android:icon="@drawable/ic_apps"
+        android:title="Other Apps" />
+
+</menu>

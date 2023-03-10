@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/deleteSheet"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -24,11 +23,7 @@
         android:fontFamily="@font/trebuc"
         android:textStyle="bold"
         android:autoSizeTextType="uniform"
-        android:autoSizeMinTextSize="12sp"
-        android:autoSizeMaxTextSize="100sp"
-        android:autoSizeStepGranularity="1sp"
-        android:autoSizePresetSizes="@array/autosize_text_sizes"
-        tools:targetApi="o" />
+        android:autoSizePresetSizes="@array/autosize_text_sizes" />
 
     <TextView
         android:id="@+id/delete_no"
